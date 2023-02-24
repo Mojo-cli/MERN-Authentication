@@ -1,0 +1,85 @@
+.App{
+  display: flex;
+  height: 100vh;
+  background: url('./assets/2.jpg');
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container{
+  display: flex;
+  height: 80vh;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.signup-sec{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+}
+
+.login-sec{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  border-left: 2px solid black;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sec-title-container{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.signup-form-container{
+  display: flex;
+  height: 65%;
+  width: 100%;
+  margin-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label{
+  margin: 10px 0px 10px 30px;
+}
+
+.input-box{
+  height: 40px;
+  width: 50%;
+  background-color: transparent;
+  margin-left: 30px;
+  padding-left: 10px;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  outline: none;
+}
+
+.btn{
+  width: 120px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 20px;
+  border-width: 0px;
+  font-weight: bold;
+  background-color: lightyellow;
+}
+
+.login-sec form button{
+  margin-top: 30px;
+}
